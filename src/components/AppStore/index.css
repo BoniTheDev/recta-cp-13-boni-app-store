@@ -1,0 +1,64 @@
+/* Write your CSS here */
+
+.app-container {
+  min-height: 100vh;
+  background-image: linear-gradient(to bottom, #fff1eb, #ace0f9);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.appstore-heading {
+  color: #1e293b;
+  font-size: 50px;
+  font-family: 'Bree Serif';
+  font-weight: bold;
+}
+
+@media screen and (min-width: 768px) {
+  .appstore-heading {
+    font-size: 65px;
+  }
+}
+.search-card {
+  display: flex;
+  border: solid 1px #1e293b;
+  border-radius: 5px;
+  padding: 3px;
+}
+
+@media screen and (min-width: 768px) {
+  .search-card {
+    width: 50%;
+  }
+}
+.search-input {
+  min-width: 200px;
+  height: 30px;
+  outline: none;
+  border: none;
+  background-color: transparent;
+  color: #1e293b;
+  font-weight: bold;
+}
+@media screen and (min-width: 768px) {
+  .search-input {
+    width: 100%;
+  }
+}
+
+.search-icon {
+  height: 30px;
+  width: 30px;
+}
+.tab-items-list {
+  display: flex;
+  justify-content: flex-start;
+  border-bottom: solid 0.5px #7b8794;
+}
+.app-items-list {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+}
